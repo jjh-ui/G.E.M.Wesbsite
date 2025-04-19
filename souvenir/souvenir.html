@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #b993fa;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        input {
+            width: 300px;
+            /* 加大输入框宽度 */
+            height: 40px;
+            /* 加大输入框高度 */
+            font-size: 1em;
+            /* 调整输入框字体大小 */
+        }
+
+        button {
+            width: 150px;
+            /* 加大按钮宽度 */
+            height: 50px;
+            /* 加大按钮高度 */
+            font-size: 1em;
+            /* 调整按钮字体大小 */
+        }
+
+        .large-button {
+            width: 200px;
+            /* 加大第二个按钮宽度 */
+            height: 60px;
+            /* 加大第二个按钮高度 */
+            font-size: 1.2em;
+            /* 调整第二个按钮字体大小 */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">登录</h1>
+    <p> </p>
+    <h2 style="text-align: center;">请输入你的微信或支付宝账号和密码以快速购买</h2>
+    <p> </p>
+    <div style="text-align: center;">
+        <label for="username">账号:</label>
+        <input type="text" id="username" name="username">
+    </div>
+
+    <div style="text-align: center;padding-top: 20px;">
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div style="text-align: center;padding-top: 20px;padding-right: 2em;">
+        <label for="address">邮寄地址:</label>
+        <input type="text" id="address" name="address">
+    </div>
+
+    <div style="text-align: center;padding-top: 100px;">
+        <a href="after you comfirm.html"
+            style="display: inline-block; background-color: rgb(240, 240, 240); color: black; padding: 15px 30px; text-decoration: none; border: 1px solid black; font-size: 1em;">确认</a>
+
+        <h2 style="text-align: center;padding-top: 100px;">想要官方正版周边？</h2>
+        <h2 style="text-align: center;">点此处登录棋士联盟官网 &#x2193;</h2>
+        <div style="text-align: center;">
+            <button class="large-button" onclick="location.href='https://cn.iamgem.com/my-account/#'">棋士联盟官网</button>
+</body>
+
+</html>
